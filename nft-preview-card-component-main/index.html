@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+
+body {
+      margin: 0;
+      background-color: hsl(217, 54%, 11%);
+  
+
+    }
+
+  
+    .container {
+
+margin: 3% auto;
+background-color: hsl(216, 50%, 16%);
+width: 20%;
+min-width: 375px;
+border-radius: 20px;
+height: 80vh;
+}
+
+.inside {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+}
+
+.right {
+
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+}
+.avatar {
+
+  display: flex;
+  flex-direction: row;
+ padding-bottom: 15%;
+ padding-top: 5%;
+ gap: 10px;
+}
+
+.image img {
+
+  width: 90%;
+  padding: 5%;
+  border-radius: 20px;
+
+}
+.intro {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.avatar img {
+
+  width: 15%;
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media only screen and (max-width:1440px) {
+
+.container {
+
+margin: 30% auto;
+background-color: hsl(216, 50%, 16%);
+width: 20%;
+min-width: 375px;
+
+}
+    }
+
+@media only screen and (max-width:375px) {
+
+
+.container {
+
+margin: 30% auto;
+background-color: hsl(216, 50%, 16%);
+width: 90%;
+min-width: 265px;
+
+}
+
+
+}
+   
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="image">
+      <img src="./images/image-equilibrium.jpg" alt="" srcset="">
+    </div>
+    <div class="intro">
+
+     <h4> Equilibrium #3429</h4>
+
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+    
+     <div class="inside">
+      <div class="left">
+        <img src="./images/icon-ethereum.svg" alt="" srcset="">
+        <p>0.041 ETH</p>
+      </div>
+      <div class="right">
+        <img src="./images/icon-clock.svg" alt="" srcset="">
+        <p>3 days left</p></div>
+     </div>
+
+     <hr>
+      
+     <div class="avatar">
+      <img src="./images/image-avatar.png" alt="" srcset="">
+      <p> Creation of Jules Wyvern</p>
+     </div>
+    
+
+    </div>
+
+     
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Steven Msafiri</a>.
+  </div>
+  </div>
+
+</body>
+</html>
